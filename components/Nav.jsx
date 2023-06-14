@@ -6,7 +6,7 @@ import { signIn, signOut, useSession, getProviders } from "next-auth/react"
 import logo from "../public/assets/images/logo.svg"
 
 const Nav = () => {
-  const { data: session } = useSession()
+  const { data: session } = useSession() // isUserLoggedin
 
   const [providers, setProviders] = useState(null)
   const [toggleDropdown, setToggleDropdown] = useState(false)

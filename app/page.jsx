@@ -12,7 +12,7 @@ const Home = () => {
         PrompVault is a secure, centralized platform for storing and sharing AI prompts, promoting collaboration among users.
         </p>
         <Feed />
-        <div className="font-bold my-5">Made By <a href="https://testing-eight-lyart.vercel.app/" target="_blank" rel="noopener noreferrer"  className="orange_gradient">IsraelBosun </a> with Nextjs and MongoDB</div>
+        <div className="font-bold my-5 text-center">Made By <a href="https://testing-eight-lyart.vercel.app/" target="_blank" rel="noopener noreferrer"  className="orange_gradient">IsraelBosun </a> with Nextjs and MongoDB</div>
     </section>
   )
 }

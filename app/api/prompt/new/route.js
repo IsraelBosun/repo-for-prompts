@@ -1,3 +1,4 @@
+// to save prompt to mongodb
 import { connectToDB } from "@/utils/database"
 import Prompt from "@/models/prompt";
 

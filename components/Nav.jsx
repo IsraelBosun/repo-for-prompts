@@ -3,7 +3,8 @@ import Link from "next/link"
 import Image from "next/image"
 import { useState, useEffect } from "react"
 import { signIn, signOut, useSession, getProviders } from "next-auth/react"
-import logo from "../public/assets/images/logo.svg"
+import logo from "../public/assets/images/padlock.png"
+import  FaVault  from "react-icons/fa"
 
 const Nav = () => {
   const { data: session } = useSession() // isUserLoggedin
@@ -27,8 +28,9 @@ const Nav = () => {
   return (
     <nav className = " flex-between w-full mb-16 pt-3">
       <Link href = "/" className="flex gap-2 flex-center">
-        <Image src={logo} alt="logo" width={30} height={30} className="object-contain"/>
-        <p className="logo_text">Promptrepo</p>
+        <Image src={logo} alt="logo" width={40}  className="object-contain"/>
+        {/* <FaVault /> */}
+        <p className="logo_text">PromptVault</p>
       </Link>
       {/* {Desktop Navigation} */}
       <div className="sm:flex hidden">

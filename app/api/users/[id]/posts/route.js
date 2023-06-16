@@ -15,7 +15,7 @@
 
 
 
-
+// to fetch prompts of the users in the profile page
 
 import Prompt from "@/models/prompt";
 import { connectToDB } from "@/utils/database";

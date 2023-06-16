@@ -1,3 +1,4 @@
+// to fetch all posts to the home page
 import Prompt from "@/models/prompt";
 import { connectToDB } from "@/utils/database";
 

@@ -1,10 +1,12 @@
 import "../styles/globals.css"
 import Nav from "@/components/Nav"
 import Provider from "@/components/Provider"
+import image from "../public/assets/images/padlock.png"
 
 export const metadata = {
-    title: "Prompt-repo",
-    description: "Share AI Prompts"
+    title: "PromptVault",
+    description: "Store and Share AI Prompts",
+    image: {image}
 }
 
 const RootLayout = ({ children }) => {

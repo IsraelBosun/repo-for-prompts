@@ -1,4 +1,4 @@
-
+// for getting updating and deleting prompts in the profile and update-promt page
 import Prompt from "@/models/prompt";
 import { connectToDB } from "@/utils/database";
 // GET

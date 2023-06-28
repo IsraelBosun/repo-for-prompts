@@ -1,4 +1,6 @@
-<h1 style="text-align: center;">AI Prompts Vault</h1>
+![prompt](https://github.com/IsraelBosun/repo-for-prompts/assets/110021253/78d9975e-a280-49a5-8f24-949ec1a6f964)
+
+<h1 style="text-align: center;">PromptVault</h1>
 
 <p style="text-align: center;">
   A website built with Next.js and MongoDB for storing and reusing AI prompts, with authentication using Google Sign-In. Users can create, update, and delete prompts while other visitors can view and explore them.
@@ -15,7 +17,8 @@
   <li><a href="#environment-variables">Environment Variables</a></li>
   <li><a href="#technologies">Technologies</a></li>
   <li><a href="#contributing">Contributing</a></li>
-  <li><a href="#license">License</a></li>
+  <li><a href="#license"![prompt](https://github.com/IsraelBosun/repo-for-prompts/assets/110021253/5ba09561-a4f1-4283-b937-c8dff036f130)
+>License</a></li>
 </ul>
 
 <h2 id="description">Description</h2>
@@ -46,6 +49,9 @@
 <p>
   The app is styled using Tailwind CSS to provide a clean and responsive user interface.
 </p>
+
+![prompter](https://github.com/IsraelBosun/repo-for-prompts/assets/110021253/614b3742-3724-4f4b-a3ed-443501ff0c1c)
+
 
 <h2 id="features">Features</h2>
 
@@ -148,7 +154,7 @@ NEXTAUTH_SECRET=your_nextauth_secret</code></pre>
 <h2 id="contributing">Contributing</h2>
 
 <p>
-  Contributions to AI Prompts Vault are welcome! If you have any suggestions, enhancements, or bug fixes, please open an issue or submit a pull request.
+  Contributions to PromptVault are welcome! If you have any suggestions, enhancements, or bug fixes, please open an issue or submit a pull request.
 </p>
 
 <h2 id="license">License</h2>

@@ -1,6 +1,6 @@
 ![prompt](https://github.com/IsraelBosun/repo-for-prompts/assets/110021253/78d9975e-a280-49a5-8f24-949ec1a6f964)
 
-<h1 style="text-align: center;">PromptVault</h1>
+<h1 style="text-align: center;">PromptVaultx</h1>
 
 <p style="text-align: center;">
   A website built with Next.js and MongoDB for storing and reusing AI prompts, with authentication using Google Sign-In. Users can create, update, and delete prompts while other visitors can view and explore them.
